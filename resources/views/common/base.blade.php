@@ -10,6 +10,8 @@
 		@include('common._messages')
        	@yield('content')
        	@include('common._footer')
-    </div>    
+    </div> 
+
+    <script src="/js/app.js"></script>   
   </body>
 </html>
