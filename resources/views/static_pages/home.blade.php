@@ -1,4 +1,5 @@
 @extends('common.base')
+
 @section('title', '主页')
 
 @section('content')

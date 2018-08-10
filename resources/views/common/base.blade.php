@@ -7,8 +7,9 @@
   <body>
   	@include('common._header')
     <div class="container">
-      @yield('content')
-       @include('common._footer')
+		@include('common._messages')
+       	@yield('content')
+       	@include('common._footer')
     </div>    
   </body>
 </html>
